@@ -131,7 +131,7 @@ input {
     padding: 12px 14px 12px 16px;
     margin-top: 20px;
     color: #4A556CB2;
-    border: #D0D5DD 1px solid ;
+    border: #D0D5DD 1px solid;
     border-radius: 8px;
 }
 
@@ -345,7 +345,7 @@ input {
     margin-left: 8px;
 }
 
-.fourthS h2{
+.fourthS h2 {
     font-size: 48px;
     font-weight: 800;
     line-height: 56px;
@@ -354,17 +354,20 @@ input {
     width: 735px;
     height: 112px;
 }
-.fourthS span{
+
+.fourthS span {
     color: #20AD96;
 }
-.fourthS p{
+
+.fourthS p {
     font-size: 17px;
     font-weight: 400;
     color: #4A556CCC;
     line-height: 25px;
     width: 540px;
 }
-.fourthS button{
+
+.fourthS button {
     color: #FFFFFF;
     background-color: #20AD96;
     font-family: "Kumbh Sans", serif;
@@ -376,15 +379,76 @@ input {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    margin-top:24px
+    margin-top: 24px
 }
-.fourthS{
+
+.fourthS {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap:16px;
+    gap: 16px;
     width: 100%;
     height: 556px;
+}
+
+.notif h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #333461;
+    line-height: 38px;
+    width: 738px;
+}
+
+.notif p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4A556C;
+    line-height: 30px;
+    margin-top: 16px;
+    width: 738px;
+}
+
+.notif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.subscribe input {
+    width: 280px;
+    height: 44px;
+    font-family: "Kumbh Sans", serif;
+}
+
+.subscribe button {
+    color: #FFFFFF;
+    background-color: #20AD96;
+    font-family: "Kumbh Sans", serif;
+    width: 150px;
+    height: 44px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.subscribe {
+    width: 446px;
+    margin-bottom: 21px;
+}
+
+.fifthS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 48px;
+    height: 180px;
+    background-color: #FAF8F6;
 }
