@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Kumbh Sans", serif;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #333461;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 21px;
+    position: relative;
+    margin-left: 85px;
+}
+.logo img{
+    position: absolute;
+    margin-right:127px ;
+    margin-top: 5px;
+}
+.logo h1{
+    font-size:15px;
+}
+.logo b{
+    color:#20AD96 ;
+    font-size: 35px;
+}
+.options{
+    display: flex;
+    width: 576px;
+    height: 40px;
+    gap:27px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-right: 75px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:27px
+}
+nav ul li{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    text-align: right;
+}
+nav button{
+    color: #FFFFFF;
+    background-color: #20AD96;
+    width: 193px;
+    height: 40px;
+    padding:11px 16px;
+    border: none;
+    border-radius: 4px;
+}
