@@ -1,25 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Kumbh Sans", serif;
     overflow-x: hidden;
 }
+
 /*navbar*/
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-    gap:500px;
+    width: 100%;
+    gap: 500px;
     color: #333461;
     height: 60px;
     align-items: center;
     padding-bottom: 10px;
 }
-.logo{
+
+.logo {
     display: flex;
     width: 160px;
     height: 30px;
@@ -30,101 +33,118 @@ nav{
     position: relative;
     margin-left: 25px;
 }
-.logo img{
+
+.logo img {
     position: absolute;
-    margin-right:127px ;
+    margin-right: 127px;
     margin-top: 5px;
 }
-.logo h1{
-    font-size:15px;
+
+.logo h1 {
+    font-size: 15px;
 }
-.logo b{
-    color:#20AD96 ;
+
+.logo b {
+    color: #20AD96;
     font-size: 35px;
 }
-.options{
+
+.options {
     display: flex;
     width: 576px;
     height: 40px;
-    gap:27px;
+    gap: 27px;
     justify-content: center;
     align-items: center;
     margin-top: 18px;
     margin-right: 75px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
-    gap:27px
+    gap: 27px
 }
-nav ul li{
+
+nav ul li {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: -2%;
     text-align: right;
     color: #4A556C;
 }
-nav button{
+
+nav button {
     color: #FFFFFF;
     background-color: #20AD96;
     width: 193px;
     height: 40px;
-    padding:11px 16px;
+    padding: 11px 16px;
     border: none;
     border-radius: 4px;
-    font-family:"Kumbh Sans", serif;
+    font-family: "Kumbh Sans", serif;
     font-weight: 600;
     cursor: pointer;
 }
+
 /*section 1*/
-.grid-container{
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2,720px);
+    grid-template-columns: repeat(2, 720px);
     justify-content: center;
     align-items: center;
     max-width: 100%;
     margin-top: 8px;
 }
-.grid-item{
+
+.grid-item {
     margin-top: 130px;
     margin-left: 112px;
     margin-bottom: 98px;
 }
-.grid-container h2{
+
+.grid-container h2 {
     color: #333461;
     font-size: 48px;
     font-weight: 800;
     line-height: 58px;
 }
-.grid-container .lorem{
+
+.grid-container .lorem {
     color: #4A556CB2;
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
 }
-.grid-container h3{
+
+.grid-container h3 {
     font-family: "Inter", serif;
     color: #4A556CB2;
     font-size: 14px;
     font-weight: 400;
     margin-top: 20px;
 }
-input{
+
+input {
     width: 299px;
     height: 48px;
-    padding:12px 14px 12px 16px ;
+    padding: 12px 14px 12px 16px;
     margin-top: 20px;
     color: #4A556CB2;
+    border: #D0D5DD 1px solid ;
+    border-radius: 8px;
 }
-.grid-container span{
+
+.grid-container span {
     text-decoration: underline solid #4A556CB2;
 }
-.grid-container button{
+
+.grid-container button {
     color: #FFFFFF;
     background-color: #20AD96;
     width: 299px;
     height: 48px;
-    padding:11px 16px;
+    padding: 11px 16px;
     border: none;
     border-radius: 8px;
     font-family: "Kumbh Sans", serif;
@@ -132,58 +152,66 @@ input{
     margin-top: 20px;
     cursor: pointer;
 }
-.grid-item1{
+
+.grid-item1 {
     background-color: #FAF8F6;
     padding: 85px 148px 54px 126px;
     position: relative;
 }
-.shape{
+
+.shape {
     width: 446px;
     height: 581px;
     background-color: #333461;
 }
-.grid-item1 h2{
+
+.grid-item1 h2 {
     position: absolute;
     color: #FFFFFF;
     width: 218px;
     height: 245px;
     padding-top: 50px;
-    padding-left:38px ;
+    padding-left: 38px;
     font-size: 40px;
 }
-.grid-item1 img{
+
+.grid-item1 img {
     padding-top: 217px;
     padding-left: 105px;
 }
-.rectangle{
+
+.rectangle {
     position: absolute;
     background-color: #413A7D4D;
     width: 446px;
     height: 78px;
-    margin-top:476px;
+    margin-top: 476px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: left;
-    
-    
+
+
 }
-.rectangle h3{
+
+.rectangle h3 {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 14px;
-    margin-left:7px;
+    margin-left: 7px;
     margin-top: 25px;
     padding-right: 40px;
 }
-.rectangle p{
+
+.rectangle p {
     color: #FFFFFF;
     font-size: 10px;
     margin-left: 93px;
     position: absolute;
-    margin-top:45px
+    margin-top: 45px
 }
-.rectangle .circle{
+
+.rectangle .circle {
     background-color: white;
     width: 40px;
     height: 40px;
@@ -191,33 +219,38 @@ input{
     margin-top: 18px;
     margin-left: 4px;
 }
-.shape .message{
+
+.shape .message {
     position: absolute;
     margin-top: 286px;
 }
-.secondS h3{
+
+.secondS h3 {
     color: #4A556C80;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
-.secondS h2{
+
+.secondS h2 {
     color: #333461;
     font-size: 48px;
     font-weight: 800;
     line-height: 58px;
     width: 900px;
 }
-.secondS .test{
+
+.secondS .test {
     margin-top: 68px;
-    padding-bottom:68px ;
+    padding-bottom: 68px;
 }
-.secondS button{
+
+.secondS button {
     color: #FFFFFF;
     background-color: #20AD96;
     width: 225px;
     height: 48px;
-    padding:12px 20px;
+    padding: 12px 20px;
     border: 1px solid #20AD96;
     border-radius: 8px;
     font-family: "Kumbh Sans", serif;
@@ -225,65 +258,76 @@ input{
     font-weight: 500;
     cursor: pointer;
 }
-.secondS{
+
+.secondS {
     display: flex;
     width: 100%;
     height: 230px;
     justify-content: center;
     align-items: center;
-    gap:92px;
+    gap: 92px;
 }
-.firsthalf h3{
+
+.firsthalf h3 {
     color: #4A556C80;
     font-size: 16px;
     font-weight: 400;
 }
-.firsthalf h2{
+
+.firsthalf h2 {
     color: #333461;
     font-size: 48px;
     font-weight: 800;
     letter-spacing: -2%;
     margin-top: 12px;
 }
-.firsthalf p{
+
+.firsthalf p {
     color: #4A556C;
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
 }
-.firsthalf{
+
+.firsthalf {
     width: 560px;
     height: 262px;
 }
-.secondhalf h2{
+
+.secondhalf h2 {
     color: #333461;
     font-size: 19px;
     font-weight: 700;
 }
-.secondhalf p{
-    color:#667085 ;
+
+.secondhalf p {
+    color: #667085;
     font-size: 16px;
     font-weight: 400;
     margin-top: 8px;
     margin-bottom: 56px;
 }
-.secondhalf{
+
+.secondhalf {
     width: 560px;
     height: 224px;
     position: relative;
 }
-.thirdS .circle{
+
+.thirdS .circle {
     background-color: white;
     width: 50px;
     height: 40px;
     border-radius: 50%;
     margin: 0;
 }
-.secondhalf .part{
+
+.secondhalf .part {
     display: flex;
-    gap:20px
+    gap: 20px
 }
-.thirdS{
+
+.thirdS {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,10 +336,55 @@ input{
     height: 518px;
     gap: 96px;
 }
-.secondhalf img{
+
+.secondhalf img {
     position: absolute;
     width: 22px;
     height: 22px;
     margin-top: 10px;
     margin-left: 8px;
+}
+
+.fourthS h2{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #333461;
+    width: 735px;
+    height: 112px;
+}
+.fourthS span{
+    color: #20AD96;
+}
+.fourthS p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #4A556CCC;
+    line-height: 25px;
+    width: 540px;
+}
+.fourthS button{
+    color: #FFFFFF;
+    background-color: #20AD96;
+    font-family: "Kumbh Sans", serif;
+    width: 250px;
+    height: 44px;
+    padding: 10px 18px;
+    border: 1px solid #20AD96;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top:24px
+}
+.fourthS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:16px;
+    width: 100%;
+    height: 556px;
 }
